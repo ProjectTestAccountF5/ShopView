@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:id="gridPane" alignment="TOP_CENTER" prefHeight="1842.0" prefWidth="1058.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShopView.ShopMainController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <VBox fx:id="a" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;">
+         <children>
+            <ImageView fx:id="prdImg1" fitHeight="330.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" >
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../OUTWEAR/Christian%20투버튼%20블레이저.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn1" mnemonicParsing="false" style="-fx-background-color: white; -fx-border-color: white;" text="Christian 투버튼 블레이저">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★★★★" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 69,000">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: black; -fx-border-color: white;" text="               ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+                  <Label style="-fx-background-color: beige; -fx-border-color: lightgray;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox fx:id="b" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;" GridPane.columnIndex="1">
+         <children>
+            <ImageView fx:id="prdImg2" fitHeight="330.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../PANTS/Terry%20스웻팬츠.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn2" mnemonicParsing="false"  style="-fx-background-color: white; -fx-border-color: white;" text="Terry 스웻팬츠">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★★★★" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 53,000 → 51,500">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: black; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+                  <Label style="-fx-background-color: darkgray; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox fx:id="c" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;" GridPane.columnIndex="2">
+         <children>
+            <ImageView fx:id="prdImg3" fitHeight="330.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../TOP/wonderland%20스트라이프%20니트.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn3" mnemonicParsing="false"  style="-fx-background-color: white; -fx-border-color: white;" text="wonderland 스트라이프 니트">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★★☆" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 29,000">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: skyblue; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox fx:id="d" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;" GridPane.rowIndex="1">
+         <children>
+            <ImageView fx:id="prdImg4" fitHeight="330.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../TOP/머스크%20롱%20슬리브%20Tee.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn4" mnemonicParsing="false"  style="-fx-background-color: white; -fx-border-color: white;" text="머스크 롱 슬리브 Tee">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★★★★" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 29,000">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: black; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+                  <Label style="-fx-background-color: darkgray; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+                  <Label style="-fx-background-color: white; -fx-border-color: lightgray;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox fx:id="e" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <ImageView fx:id="prdImg5" fitHeight="330.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../OUTWEAR/painted%20BDU%20자켓.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn5" mnemonicParsing="false"  style="-fx-background-color: white; -fx-border-color: white;" text="painted BDU 자켓">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★★★☆" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 82,000 → 81,000">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: black; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+                  <Label style="-fx-background-color: darkblue; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox fx:id="f" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <children>
+            <ImageView fx:id="prdImg6" fitHeight="330.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../ACCESSORIES/String%20슬링백.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn6" mnemonicParsing="false"  style="-fx-background-color: white; -fx-border-color: white;" text="String 슬링백">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★★★" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 47,000">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: black; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox fx:id="g" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;" GridPane.rowIndex="2">
+         <children>
+            <ImageView fx:id="prdImg7" fitHeight="330.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../PANTS/pocket%20팬츠.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn7" mnemonicParsing="false"  style="-fx-background-color: white; -fx-border-color: white;" text="pocket 팬츠">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★★☆" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 49,000">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: black; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox fx:id="h" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <children>
+            <ImageView fx:id="prdImg8" fitHeight="330.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../TOP/소프트%20크루넥%20니트.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn8" mnemonicParsing="false"  style="-fx-background-color: white; -fx-border-color: white;" text="소프트 크루넥 니트">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★★" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 25,000">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: black; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+                  <Label style="-fx-background-color: darkblue; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font></Label>
+                  <Label style="-fx-background-color: ivory; -fx-border-color: lightgray;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox fx:id="i" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <children>
+            <ImageView fx:id="prdImg9" fitHeight="330.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../ACCESSORIES/Margaret%20painted%20버킷햇.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn9" mnemonicParsing="false"  style="-fx-background-color: white; -fx-border-color: white;" text="Margaret painted 버킷햇">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★★☆" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 32,000 → 30,500">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: black; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+                  <Label style="-fx-background-color: white; -fx-border-color: lightgray;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox fx:id="j" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;" GridPane.rowIndex="3">
+         <children>
+            <ImageView fx:id="prdImg10" fitHeight="330.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../OUTWEAR/스티치%20zip%20자켓.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn10" mnemonicParsing="false"  style="-fx-background-color: white; -fx-border-color: white;" text="스티치 zip 자켓">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★★" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 58,000">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: black; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+                  <Label style="-fx-background-color: white; -fx-border-color: lightgray;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox fx:id="k" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <children>
+            <ImageView fx:id="prdImg11" fitHeight="330.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../PANTS/와이드%20카고%20팬츠.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn11" mnemonicParsing="false"  style="-fx-background-color: white; -fx-border-color: white;" text="와이드 카고 팬츠">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★★★" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 42,000">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: black; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+                  <Label style="-fx-background-color: darkgray; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+                  <Label style="-fx-background-color: olive; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox fx:id="l" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <children>
+            <ImageView fx:id="prdImg12" fitHeight="330.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../TOP/오버사이즈드%20반팔%20Tee.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn12" mnemonicParsing="false"  style="-fx-background-color: white; -fx-border-color: white;" text="오버사이즈드 반팔 Tee">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★★★" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 28,000">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: black; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+                  <Label style="-fx-background-color: white; -fx-border-color: lightgray;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox fx:id="m" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;" GridPane.rowIndex="4">
+         <children>
+            <ImageView fx:id="prdImg13" fitHeight="330.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../ACCESSORIES/더블%20라운드%20가죽%20벨트.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn13" mnemonicParsing="false"  style="-fx-background-color: white; -fx-border-color: white;" text="더블 라운드 가죽 벨트">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★★★★" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 49,000">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: black; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox fx:id="n" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <children>
+            <ImageView fx:id="prdImg14" fitHeight="330.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../TOP/플레인%20멀티%20브이넥%20니트.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn14" mnemonicParsing="false"  style="-fx-background-color: white; -fx-border-color: white;" text="플레인 멀티 브이넥 니트">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★★" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 37,000">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: black; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+      <VBox fx:id="o" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-border-color: lightgray;" GridPane.columnIndex="2" GridPane.rowIndex="4">
+         <children>
+            <ImageView fx:id="prdImg15" fitHeight="330.0" fitWidth="200.0"  pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="3.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../PANTS/컷라인%20린넨%20팬츠.jpg" />
+               </image>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="prdBtn15" mnemonicParsing="false"  style="-fx-background-color: white; -fx-border-color: white;" text="컷라인 린넨 팬츠">
+                     <font>
+                        <Font name="Malgun Gothic" size="11.0" />
+                     </font>
+                  </Button>
+                  <Label text="★☆" textFill="#eea032" />
+               </children>
+            </HBox>
+            <Label style="-fx-border-color: lightgray;" text="KRW 40,000">
+               <font>
+                  <Font name="Malgun Gothic" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="6.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label style="-fx-background-color: black; -fx-border-color: white;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font>
+                  </Label>
+                  <Label style="-fx-background-color: ivory; -fx-border-color: lightgray;" text="             ">
+                     <font>
+                        <Font size="6.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </GridPane.margin>
+      </VBox>
+   </children>
+</GridPane>
