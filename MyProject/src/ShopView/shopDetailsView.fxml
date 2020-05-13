@@ -79,7 +79,7 @@
          <children>
             <ImageView fx:id="detailImgView" fitHeight="1111.0" fitWidth="763.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@상품상세사진/스트라이프니트.jpg" />
+                  <Image url="@../DetailImg/wonderland%20스트라이프%20니트.jpg" />
                </image>
             </ImageView>
          </children></VBox>
@@ -91,7 +91,7 @@
                <children>
                   <ImageView fx:id="prdImgView" fitHeight="262.0" fitWidth="316.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@상품사진/TOP/wonderland%20스트라이프%20니트.jpg" />
+                        <Image url="@../ImgSource/TOP/wonderland%20스트라이프%20니트.jpg" />
                      </image>
                   </ImageView>
                   <VBox prefHeight="262.0" prefWidth="361.0" spacing="10.0">

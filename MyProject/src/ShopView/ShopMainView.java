@@ -1,11 +1,9 @@
 package ShopView;
 
 import java.io.IOException;
-
 import ShopView.Service.CommonService;
 import ShopView.Service.CommonServiceImpl;
 import javafx.application.Application;
-import javafx.scene.Parent;
 
 import javafx.stage.Stage;
 

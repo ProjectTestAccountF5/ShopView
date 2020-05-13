@@ -1,5 +1,7 @@
 package ShopView;
 
+import java.util.List;
+
 public class ProductInfo {
 	private String prdName;
 	private String price;
@@ -13,6 +15,14 @@ public class ProductInfo {
 	private String imgsrc;
 	private String imgdetail;
 	private int prodNum;
+	private List<Integer> prdOrderNum;
+	
+	public List<Integer> getPrdOrderNum() {
+		return prdOrderNum;
+	}
+	public void setPrdOrderNum(List<Integer> prdOrderNum) {
+		this.prdOrderNum = prdOrderNum;
+	}
 	public String getImgsrc() {
 		return imgsrc;
 	}
