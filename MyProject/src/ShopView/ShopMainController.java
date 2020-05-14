@@ -72,15 +72,11 @@ public class ShopMainController extends Controller implements Initializable {
 
 		ArrayList<Integer> location = new ArrayList<Integer>(); // gridpane의 position값 가져오기
 		location.addAll(pos);
-//		for (int i = 0; i < pos.size(); i++)
-//			System.out.println("pos " + i + " : " + pos.get(i));
 		
 		List<ProductInfo> lstProdInfo = new ArrayList<ProductInfo>();
+		System.out.println(prdNumLst.get(pos.get(0)));
 		lstProdInfo.addAll(prodManage.getProductInfo(prdNumLst.get(pos.get(0))));
 		Parent form = shopMainServ.OpenPrdDetails(); // shopMainServiceImpl
-
-//		String [] colorItems= {lstProdInfo.get(0).getColor()};
-//		String [] sizeItems= {lstProdInfo.get(0).getPrdsize()};
 
 		comServ.DivideCom(lstProdInfo.get(0).getColor());
 		comServ.DivideCom(lstProdInfo.get(0).getPrdsize());
@@ -126,8 +122,7 @@ public class ShopMainController extends Controller implements Initializable {
 
 		gridPane.setOnMouseClicked(e -> {
 			ArrayList<Integer> pos = new ArrayList<Integer>();
-			Parent root = (Parent) e.getSource();
-			gridPane = (GridPane) root;
+			gridPane = (GridPane) e.getSource();
 			Node clickedChild = e.getPickResult().getIntersectedNode();
 			
 			

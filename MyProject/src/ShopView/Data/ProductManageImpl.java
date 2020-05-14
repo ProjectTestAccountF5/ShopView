@@ -185,7 +185,6 @@ public class ProductManageImpl implements IProductManage{
 				orderStr
 				;
 		List<ProductInfo> lstProductInfo =new ArrayList<ProductInfo>();
-		
 		try {
 			PreparedStatement pStmt =conn.prepareStatement(sql);
 			
